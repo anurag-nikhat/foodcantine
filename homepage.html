@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshBite - Food Service Solutions</title>
+    <link rel="stylesheet" href="homepage.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            color: white;
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            color: #28a745;
+        }
+        
+        .menu-card {
+            transition: transform 0.3s;
+        }
+        
+        .menu-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .cta-section {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <i class="fas fa-utensils me-2"></i>FreshBite
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                <li class="nav-item"><a class="btn btn-success ms-2" href="#">Order Now</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section d-flex align-items-center">
+    <div class="container text-center">
+        <h1 class="display-4 mb-4">Premium Food Service Solutions</h1>
+        <p class="lead mb-4">Serving businesses with fresh, quality ingredients and delicious meals</p>
+        <a href="#" class="btn btn-success btn-lg">Explore Services</a>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section class="py-5">
+    <div class="container">
+        <div class="row text-center mb-5">
+            <div class="col">
+                <h2>Our Services</h2>
+                <p class="text-muted">Solutions tailored for your needs</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card menu-card h-100">
+                    <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445" class="card-img-top" alt="Corporate Catering">
+                    <div class="card-body">
+                        <h5 class="card-title">Corporate Catering</h5>
+                        <p class="card-text">Daily meals for offices and corporate events</p>
+                        <a href="#" class="btn btn-outline-success">View Plans</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more service cards here -->
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row text-center mb-5">
+            <h2>Why Choose FreshBite?</h2>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4 mb-4">
+                <i class="fas fa-leaf feature-icon mb-3"></i>
+                <h4>Fresh Ingredients</h4>
+                <p>Locally sourced, organic produce</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <i class="fas fa-clock feature-icon mb-3"></i>
+                <h4>Fast Delivery</h4>
+                <p>On-time delivery guaranteed</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <i class="fas fa-cheese feature-icon mb-3"></i>
+                <h4>Custom Menus</h4>
+                <p>Tailored to your preferences</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>FreshBite</h5>
+                <p>Delivering quality food service solutions since 2023</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white text-decoration-none">About Us</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Contact</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Connect With Us</h5>
+                <div class="social-links">
+                    <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
